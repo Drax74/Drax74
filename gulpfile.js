@@ -13,6 +13,11 @@ var paths = {
   scriptDest: './public/js'
 }
 
+var server = {
+  host: 'localhost',
+  port: '8001'
+}
+
 gulp.task('styles', function(){
   return gulp.src([paths.stylesSrc])
               .pipe(sass())
