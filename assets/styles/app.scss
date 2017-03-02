@@ -1,0 +1,42 @@
+@import "settings";
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+.form-container {
+  padding-top: 100px;
+
+  #message-warning {
+    visibility: hidden;
+    margin-top: 10px;
+    color: $red;
+  }
+
+  #message-alert {
+    display: none;
+  }
+}
+
+.navbar-default {
+  background-color: $black;
+
+  .navbar-brand {
+    font-weight: 700;
+  }
+
+  .navbar-nav>li>a, .navbar-brand {
+    color: $white;
+  }
+
+  .navbar-nav>li>a:hover, .navbar-brand:hover {
+    color: $white;
+    opacity: 0.8;
+  }
+}
+
+.btn {
+  font-size: 16px;
+  height: 40px;
+}
