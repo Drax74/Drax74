@@ -1,9 +1,12 @@
 var alertMessage = document.getElementById('message-alert');
 var messageInput = document.getElementById('message-input');
 
+// add event listener to alert
+//hide it on click
 alertMessage.addEventListener('click', function() {
     this.style.display = 'none';
 });
+
 
 var inputValidation = function () {
     var warning = document.getElementById('message-warning');
